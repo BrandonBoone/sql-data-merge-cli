@@ -13,7 +13,8 @@
   },
   "scripts": {
     "test:install": "npm link",
-    "test:uninstall": "npm unlink"
+    "test:uninstall": "npm unlink",
+    "start": "node ./src/index"
   },
   "dependencies": {
     "tedious": "^2.6.4",
